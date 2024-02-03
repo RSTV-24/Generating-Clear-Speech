@@ -139,4 +139,21 @@ Ambhikesh:
 ### 21 January 2024
 >Review-1 template was filled
 
+---
+## February 2024
+
+### 03 January 2024
+**Meeting with Prof. Srinath 15:30 -15:40 pm**      
+> Load all referenced papers in lit review folder and offline             
+> Slide numbering              
+> Any major changes you make should be version controlled (V1.0, V2.0 etc)            
+> Add diagrams after Feasibility slide             
+> Add references and datasets in the last slide              
+> If you have some audio sample you keep them in the slides(last)              
+> transformer and encoder approach               
+> Should tell whether our model is real time or not              
+> Showcase all the papers we have gone through           
+> If we are asked what model we are planning to use, we can tell the models currently in use.           
+
+
 
