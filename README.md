@@ -11,9 +11,9 @@
 
 
 
-##### Setting Up the Environment
+## Setting Up the Environment
 
-## 1. Create a Conda Environment
+##### 1. Create a Conda Environment
 
 To create a new Conda environment named `rstv` with Python 3.11:
 
@@ -24,7 +24,7 @@ To create a new Conda environment named `rstv` with Python 3.11:
 conda create --name rstv python==3.11
 ```
 
-## 2. Activate the Conda Environment
+##### 2. Activate the Conda Environment
 
 To activate the newly created environment:
 
@@ -34,7 +34,7 @@ conda activate rstv
 
 
 
-## 3. Install PyTorch and CUDA Support
+##### 3. Install PyTorch and CUDA Support
 
 To install PyTorch, torchvision, torchaudio, and PyTorch-CUDA 12.1 packages from the official PyTorch and NVIDIA channels:
 
@@ -42,7 +42,7 @@ To install PyTorch, torchvision, torchaudio, and PyTorch-CUDA 12.1 packages from
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
 
-## 5. Install Additional Dependencies
+##### 5. Install Additional Dependencies
 
 To install additional dependencies listed in the `requirements.txt` file:
 
@@ -50,7 +50,7 @@ To install additional dependencies listed in the `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-## 6. Install the TTS Library
+##### 6. Install the TTS Library
 
 To install the TTS (Text-to-Speech) library:
 
