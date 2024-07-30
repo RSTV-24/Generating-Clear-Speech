@@ -16,6 +16,7 @@ feature_extractor = WhisperFeatureExtractor.from_pretrained(checkpoint, task="tr
 
 torgo = DatasetDict()
 torgo["train"] = load_dataset("tanmay-udupa/torgo_audio_dataset", split="train")
+torgo["train"] = torgo["train"].shuffle(seed=42)
 split_datasets = torgo["train"].train_test_split(test_size=0.2, seed=42)
 torgo["train"] = split_datasets["train"]
 torgo["eval"] = split_datasets["test"]
