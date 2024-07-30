@@ -9,7 +9,7 @@ import torch
 from transformers import WhisperForConditionalGeneration, WhisperProcessor
 
 class Transcriber:
-    def __init__(self, model="openai/whisper-base"):
+    def __init__(self, model="openai/whisper-base.en"):
         '''
         Initializes the transcription model and processor.
 
